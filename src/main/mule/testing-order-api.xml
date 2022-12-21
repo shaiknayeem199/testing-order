@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"repo created successfully"]]></ee:set-payload>
+"Updated repo"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="5510df2d-44ed-4f8a-999c-16709ff80d8a" message="SCHEDULAR COMPLETED"/>
